@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffc6c6, #082062);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 150px auto;
+  background-color: #0c0e15;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.left-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.right-column {
+  padding: 20px;
+}
+.box {
+  width: auto;
+  padding: 20px; /* Adjust padding as needed */
+  margin: 10px; /* Adjust margin as needed */
+  background-color: #0c0e15;
+  border: 1px solid #0c0e15;
+  border-radius: 5px;
+ 
+}
+
+.profile {
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc; /* Optional: Add border for styling */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.profile-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.profile:hover .profile-img {
+  transform: scale(1.1);
+}
+
+.profile-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none; /* Allow hover on the image */
+}
+
+.profile:hover .profile-overlay {
+  opacity: 1;
+}
+
+.profile-overlay p {
+  margin: 0;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  color: #e4e4e4;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+h5 {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.contact {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+ul,
+ol {
+  color: rgb(103, 219, 255);
+}
+
+#formate {
+  color: rgb(59, 97, 211);
+}
+
+#exp {
+  color: #8994b1;
+}
+
+#edu {
+  color: rgb(103, 219, 255);
+}
+.title{
+  color: rgb(103, 219, 255);
+  display:flex;
+  justify-content: left;
+  
+}
+.social-connection {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: left;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  color: #d2edfc; /* You can style the color of the icons here */
+  font-size: 24px; /* Adjust the size of the icons as needed */
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.5);
+}
+
+/* Style for LinkedIn icon */
+.linkedin:hover {
+  color: #0077b5; /* Change to LinkedIn color on hover */
+}
+
+/* Style for Instagram icon */
+.instagram:hover {
+  color: #bc2a8d; /* Change to Instagram color on hover */
+}
+
+/* Style for GitHub icon */
+.github:hover {
+  color: #ffffff; /* Change to GitHub color on hover */
+}
+
+.social-connection img {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .contact-card {
+      margin: 50px auto;
+  }
+}
