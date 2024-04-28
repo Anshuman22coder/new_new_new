@@ -1,0 +1,64 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("464f131c1ad903a77502d6aa83506b68.jpg");
+  background-size: cover;
+  font-weight: bold;
+  color: rgba(246, 124, 126, 0.986);
+  text-align: center;
+  font-size: larger;
+  
+}
+#player1-el,#player2-el{
+  font-family: cursive;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+h1 {
+  color: rgb(251, 141, 86);
+  text-transform:uppercase;
+  font-family: cursive;
+
+}
+
+#player-el {
+  font-style: italic;
+  color: rgb(232, 233, 220);
+  background-color: cadetblue;
+  border-radius: 5%;
+  height: auto;
+  width: fit-content;
+  text-transform: uppercase;
+  border-style: dotted;
+}
+#div-el{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
+  justify-content: center;
+  
+  text-align: center;
+
+}
+
+
+/* 3. Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
+button {
+  color: #016f32;
+  width: 150px;
+  line-height: 2;
+  background: rgb(225, 165, 12);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-radius: 20%;
+  border-color: rgb(57, 57, 69);
+  border-style:dashed;
+  font-family:cursive;
+  border-radius: 10px;
+  margin-bottom: 1px;
+  margin-top: 2px;
+  text-transform: capitalize;
+}
